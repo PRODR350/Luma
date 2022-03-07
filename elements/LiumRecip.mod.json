@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "Items.HONEY_BOTTLE"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:Liliumfruit"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:LiumpotionPotionItem"
+    },
+    "name": "lium_recip",
+    "namespace": "mod"
+  }
+}

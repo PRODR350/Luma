@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="Not specified"
+
+[[mods]]
+modId="the_legende_of_luma"
+version="1.0.0"
+displayName="the_legende_of_luma"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="PRODR, Lpinf, MCreator"
+
+[[dependencies.the_legende_of_luma]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

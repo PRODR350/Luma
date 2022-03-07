@@ -1,0 +1,51 @@
+{
+  "name": "world_gen:luma_dungeon",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "world_gen:luma_dungeon_close", 
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 42,
+      "element": {
+        "location": "world_gen:luma_dungeon_corner",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 45,
+      "element": {
+        "location": "world_gen:luma_dungeon_croix",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 55,
+      "element": {
+        "location": "world_gen:luma_dungeon_line",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 30,
+      "element": {
+        "location": "world_gen:luma_dungeon_throat",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

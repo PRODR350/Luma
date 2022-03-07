@@ -1,0 +1,37 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "netherite_snowball",
+    "customModelName": "Normal",
+    "name": "Iron Snowball",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 10,
+    "actionSound": {
+      "value": "entity.snowball.throw"
+    },
+    "hasGlow": false,
+    "animation": "block",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 0.9,
+    "bulletDamage": 1.5,
+    "bulletKnockback": 4,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:NetheriteSnowball"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

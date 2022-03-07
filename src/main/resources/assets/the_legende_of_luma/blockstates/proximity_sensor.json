@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_legende_of_luma:block/proximity_sensor"
+    },
+    "facing=east": {
+      "model": "the_legende_of_luma:block/proximity_sensor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_legende_of_luma:block/proximity_sensor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_legende_of_luma:block/proximity_sensor",
+      "y": 270
+    }
+  }
+}

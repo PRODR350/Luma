@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Liumpotion",
+    "splashName": "Splash Liumpotion",
+    "lingeringName": "Lingering Liumpotion",
+    "arrowName": "Arrow of Liumpotion",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:LiumEffect"
+        },
+        "duration": 3600,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

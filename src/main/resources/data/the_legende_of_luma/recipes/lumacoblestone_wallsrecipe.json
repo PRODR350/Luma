@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "the_legende_of_luma:lumacobblestone"
+    },
+    "1": {
+      "item": "the_legende_of_luma:lumacobblestone"
+    },
+    "2": {
+      "item": "the_legende_of_luma:lumacobblestone"
+    },
+    "3": {
+      "item": "the_legende_of_luma:lumacobblestone"
+    },
+    "4": {
+      "item": "the_legende_of_luma:lumacobblestone"
+    },
+    "5": {
+      "item": "the_legende_of_luma:lumacobblestone"
+    }
+  },
+  "result": {
+    "item": "the_legende_of_luma:lumacoblestone_walls",
+    "count": 2
+  }
+}

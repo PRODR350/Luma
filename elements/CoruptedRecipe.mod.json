@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GoldCore"
+      },
+      {
+        "value": "CUSTOM:IronCore"
+      },
+      {
+        "value": "CUSTOM:LumanitCristal"
+      },
+      {
+        "value": "CUSTOM:DiamondCore"
+      },
+      {
+        "value": "CUSTOM:RedstoneCore"
+      },
+      {
+        "value": "CUSTOM:NetheriteCore"
+      },
+      {
+        "value": "CUSTOM:LumanitCristal"
+      },
+      {
+        "value": "CUSTOM:EmeraldCore"
+      },
+      {
+        "value": "CUSTOM:LumanitCristal"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Corupted"
+    },
+    "name": "corupted_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "the_legende_of_luma:lumalog",
+    "the_legende_of_luma:lumaplank",
+    "the_legende_of_luma:luma_plank_stair",
+    "the_legende_of_luma:luma_plank_slab",
+    "the_legende_of_luma:luma_plank_fence",
+    "the_legende_of_luma:luma_plank_trap_door",
+    "the_legende_of_luma:luma_plank_fencegate",
+    "the_legende_of_luma:luma_plank_door",
+    "the_legende_of_luma:luma_brow_mushroom_log",
+    "the_legende_of_luma:luma_red_mushroom_log",
+    "the_legende_of_luma:stripped_luma_block",
+    "the_legende_of_luma:stripped_luma_brown_mushroom_log",
+    "the_legende_of_luma:stripped_luma_red_mushroom_log"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "the_legende_of_luma:flowing_lumazalea_item"
+    },
+    "1": {
+      "item": "the_legende_of_luma:flowing_lumazalea_item"
+    },
+    "2": {
+      "item": "the_legende_of_luma:flowing_lumazalea_item"
+    },
+    "3": {
+      "item": "the_legende_of_luma:flowing_lumazalea_item"
+    },
+    "5": {
+      "item": "the_legende_of_luma:flowing_lumazalea_item"
+    }
+  },
+  "result": {
+    "item": "the_legende_of_luma:luma_flowing_hat_armor_helmet",
+    "count": 1
+  }
+}

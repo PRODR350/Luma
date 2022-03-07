@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_legende_of_luma:gold_core"
+    },
+    "1": {
+      "item": "the_legende_of_luma:iron_core"
+    },
+    "2": {
+      "item": "the_legende_of_luma:lumanit_cristal"
+    },
+    "3": {
+      "item": "the_legende_of_luma:diamond_core"
+    },
+    "4": {
+      "item": "the_legende_of_luma:redstone_core"
+    },
+    "5": {
+      "item": "the_legende_of_luma:netherite_core"
+    },
+    "6": {
+      "item": "the_legende_of_luma:lumanit_cristal"
+    },
+    "7": {
+      "item": "the_legende_of_luma:emerald_core"
+    },
+    "8": {
+      "item": "the_legende_of_luma:lumanit_cristal"
+    }
+  },
+  "result": {
+    "item": "the_legende_of_luma:corupted",
+    "count": 1
+  }
+}

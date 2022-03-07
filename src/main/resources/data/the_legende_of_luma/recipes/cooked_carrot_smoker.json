@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 2,
+  "cookingtime": 75,
+  "ingredient": {
+    "item": "minecraft:carrot"
+  },
+  "result": {
+    "item": "the_legende_of_luma:cooked_carrot"
+  }
+}

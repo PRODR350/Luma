@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "the_legende_of_luma:block/lilium_stage_2"
+    },
+    "half=lower": {
+      "model": "the_legende_of_luma:block/lilium_stage_2_bottom"
+    }
+  }
+}

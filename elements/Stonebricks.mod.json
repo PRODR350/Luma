@@ -1,0 +1,47 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Lumabrick"
+      },
+      {
+        "value": "CUSTOM:ChiseledLumastoneBrick"
+      },
+      {
+        "value": "CUSTOM:LumabrickStair"
+      },
+      {
+        "value": "CUSTOM:LumabrickSlab"
+      },
+      {
+        "value": "CUSTOM:LumabrickWall"
+      },
+      {
+        "value": "CUSTOM:LumabrickFence"
+      },
+      {
+        "value": "CUSTOM:ScultLumastoneBrick"
+      },
+      {
+        "value": "CUSTOM:VerticalScultLumaBrick"
+      },
+      {
+        "value": "CUSTOM:InverScultLumaStone"
+      },
+      {
+        "value": "CUSTOM:SmoothScultLmaStone"
+      },
+      {
+        "value": "CUSTOM:StandeBolck"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "stone_bricks",
+    "namespace": "minecraft"
+  }
+}

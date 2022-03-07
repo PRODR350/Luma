@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "lumazalea_side",
+        "top": "lumazalea_top",
+        "plant": "lumaazalea"
+      },
+      "name": "default"
+    },
+    "flowing": {
+      "map": {
+        "side": "flowering_lumazalea_side",
+        "top": "flowering_lumazalea_top",
+        "plant": "flowering_lumaazalea"
+      },
+      "name": "flowing"
+    }
+  }
+}

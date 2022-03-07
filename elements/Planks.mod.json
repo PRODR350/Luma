@@ -1,0 +1,35 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Lumaplank"
+      },
+      {
+        "value": "CUSTOM:LumaPlankStair"
+      },
+      {
+        "value": "CUSTOM:LumaPlankSlab"
+      },
+      {
+        "value": "CUSTOM:LumaPlankFence"
+      },
+      {
+        "value": "CUSTOM:LumaPlankFencegate"
+      },
+      {
+        "value": "CUSTOM:LumaPlankDoor"
+      },
+      {
+        "value": "CUSTOM:LumaPlankTrapDoor"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "planks",
+    "namespace": "minecraft"
+  }
+}

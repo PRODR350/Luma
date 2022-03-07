@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "the_legende_of_luma:lumacobblestone"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "the_legende_of_luma:lumacobblestone"
+    },
+    "3": {
+      "item": "the_legende_of_luma:lumacobblestone"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "the_legende_of_luma:lumacobblestone"
+    }
+  },
+  "result": {
+    "item": "the_legende_of_luma:lumacobblestone_fence",
+    "count": 4
+  }
+}

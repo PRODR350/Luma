@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lumalog",
+        "1": "lumalog_top",
+        "2": "mushroom_block_inside",
+        "3": "brown_mushroom_block"
+      },
+      "name": "default"
+    },
+    "redmushroom": {
+      "map": {
+        "0": "lumalog",
+        "1": "lumalog_top",
+        "2": "mushroom_block_inside",
+        "3": "red_mushroom_block"
+      },
+      "name": "redmushroom"
+    },
+    "strippedbrown": {
+      "map": {
+        "0": "stripped_luma_log",
+        "1": "stripped_luma_log_top",
+        "2": "mushroom_block_inside",
+        "3": "brown_mushroom_block"
+      },
+      "name": "strippedbrown"
+    },
+    "strippedred": {
+      "map": {
+        "0": "stripped_luma_log",
+        "1": "stripped_luma_log_top",
+        "2": "mushroom_block_inside",
+        "3": "red_mushroom_block"
+      },
+      "name": "strippedred"
+    }
+  }
+}

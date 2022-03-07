@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "the_legende_of_luma:blocks/n02"
+  }
+}

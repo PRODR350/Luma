@@ -1,0 +1,8 @@
+{
+  "parent": "the_legende_of_luma:custom/blue_berry_bush_stage0",
+  "textures": {
+    "all": "the_legende_of_luma:blocks/blue_berry_bush_stage0",
+    "particle": "the_legende_of_luma:blocks/blue_berry_bush_stage0",
+    "1": "the_legende_of_luma:blocks/blue_berry_bush_stage0"
+  }
+}

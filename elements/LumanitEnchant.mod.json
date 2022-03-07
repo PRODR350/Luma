@@ -1,0 +1,57 @@
+{
+  "_fv": 24,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Lumanit Enchant",
+    "type": "BREAKABLE",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 5,
+    "damageModifier": 7,
+    "compatibleEnchantments": [
+      {
+        "value": "UNBREAKING"
+      },
+      {
+        "value": "SMITE"
+      },
+      {
+        "value": "EFFICIENCY"
+      },
+      {
+        "value": "LOYALTY"
+      },
+      {
+        "value": "THORNS"
+      },
+      {
+        "value": "SHARPNESS"
+      },
+      {
+        "value": "KNOCKBACK"
+      },
+      {
+        "value": "LOOTING"
+      },
+      {
+        "value": "FORTUNE"
+      },
+      {
+        "value": "POWER"
+      },
+      {
+        "value": "PUNCH"
+      }
+    ],
+    "compatibleItems": [
+      {
+        "value": "Items.ENCHANTED_BOOK"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

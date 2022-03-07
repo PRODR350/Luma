@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "particle",
+  "definition": {
+    "texture": "lumanite_particle.png",
+    "animate": false,
+    "frameDuration": 2,
+    "width": 0.30000000000000004,
+    "height": 0.30000000000000004,
+    "scale": 1.0,
+    "speedFactor": 0.2,
+    "gravity": 0.0,
+    "maxAge": 7,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.30000000000000004,
+    "angularAcceleration": 0.05,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "TRANSLUCENT"
+  }
+}

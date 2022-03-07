@@ -1,0 +1,11 @@
+{
+  "parent": "the_legende_of_luma:custom/luma_sensor",
+  "textures": {
+    "all": "the_legende_of_luma:blocks/n00",
+    "particle": "the_legende_of_luma:blocks/n00",
+    "0": "the_legende_of_luma:blocks/lumastone",
+    "2": "the_legende_of_luma:blocks/mossy_lumacobblestone",
+    "3": "the_legende_of_luma:blocks/sensor_moss",
+    "missing": "the_legende_of_luma:blocks/lumamoss"
+  }
+}

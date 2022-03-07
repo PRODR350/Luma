@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "the_legende_of_luma:block/lumalog",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "the_legende_of_luma:block/lumalog"
+    },
+    "axis=z": {
+      "model": "the_legende_of_luma:block/lumalog",
+      "x": 90
+    }
+  }
+}

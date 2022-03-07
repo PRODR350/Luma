@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DiamondNuggetItem"
+      },
+      {
+        "value": "CUSTOM:DiamondNuggetItem"
+      },
+      {
+        "value": "CUSTOM:DiamondNuggetItem"
+      },
+      {
+        "value": "CUSTOM:DiamondNuggetItem"
+      },
+      {
+        "value": "Items.SNOWBALL"
+      },
+      {
+        "value": "CUSTOM:DiamondNuggetItem"
+      },
+      {
+        "value": "CUSTOM:DiamondNuggetItem"
+      },
+      {
+        "value": "CUSTOM:DiamondNuggetItem"
+      },
+      {
+        "value": "CUSTOM:DiamondNuggetItem"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DiamondSnowball"
+    },
+    "name": "diamond_snow_ball_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "the_legende_of_luma:lumabrick_slab",
+    "the_legende_of_luma:smooth_scult_lma_stone",
+    "the_legende_of_luma:lumabrick_wall",
+    "the_legende_of_luma:lumabrick",
+    "the_legende_of_luma:lumabrick_fence",
+    "the_legende_of_luma:scult_lumastone_brick",
+    "the_legende_of_luma:vertical_scult_luma_brick",
+    "the_legende_of_luma:chiseled_lumastone_brick",
+    "the_legende_of_luma:stande_bolck",
+    "the_legende_of_luma:inver_scult_luma_stone",
+    "the_legende_of_luma:lumabrick_stair"
+  ]
+}

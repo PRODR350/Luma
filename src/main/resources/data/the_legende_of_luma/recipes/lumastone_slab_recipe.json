@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "the_legende_of_luma:lumastone"
+    },
+    "1": {
+      "item": "the_legende_of_luma:lumastone"
+    },
+    "2": {
+      "item": "the_legende_of_luma:lumastone"
+    }
+  },
+  "result": {
+    "item": "the_legende_of_luma:lumastone_slab",
+    "count": 2
+  }
+}

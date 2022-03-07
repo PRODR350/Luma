@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "the_legende_of_luma:items/debug_item_texture_0"
+  }
+}

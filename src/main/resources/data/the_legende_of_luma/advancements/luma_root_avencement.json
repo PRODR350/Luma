@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "the_legende_of_luma:lumamoss"
+    },
+    "title": {
+      "translate": "advancements.luma_root_avencement.title"
+    },
+    "description": {
+      "translate": "advancements.luma_root_avencement.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "luma_root_avencement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  }
+}

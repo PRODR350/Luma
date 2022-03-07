@@ -1,0 +1,282 @@
+{
+  "luambrick_step": {
+    "category": "player",
+    "subtitle": "subtitles.luambrick_step",
+    "sounds": [
+      {
+        "name": "the_legende_of_luma:step1",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:step2",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:step3",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:step4",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:step5",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:step6",
+        "stream": false
+      }
+    ]
+  },
+  "lumabrick_break": {
+    "category": "block",
+    "subtitle": "subtitles.lumabrick_break",
+    "sounds": [
+      {
+        "name": "the_legende_of_luma:break1",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:break2",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:break3",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:break4",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:break5",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:break6",
+        "stream": false
+      }
+    ]
+  },
+  "additional_luma_sound": {
+    "category": "ambient",
+    "subtitle": "subtitles.additional_luma_sound",
+    "sounds": [
+      {
+        "name": "the_legende_of_luma:additional_luma_0",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:additional_luma_1",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:additional_luma_2",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:additional_luma_3",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:additional_luma_4",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:additional_luma_5",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:additional_luma_6",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:additional_luma_7",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:additional_luma_8",
+        "stream": false
+      }
+    ]
+  },
+  "ambient_wind": {
+    "category": "ambient",
+    "subtitle": "subtitles.ambient_wind",
+    "sounds": [
+      {
+        "name": "the_legende_of_luma:ambient_0_wind",
+        "stream": false
+      }
+    ]
+  },
+  "test": {
+    "category": "neutral",
+    "subtitle": "subtitles.test",
+    "sounds": [
+      {
+        "name": "the_legende_of_luma:test",
+        "stream": false
+      }
+    ]
+  },
+  "lumaboss_hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.lumaboss_hurt",
+    "sounds": [
+      {
+        "name": "the_legende_of_luma:lumaboss_hurt",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:lumaboss_hurt1",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:lumaboss_hurt2",
+        "stream": false
+      }
+    ]
+  },
+  "lumaboss_living": {
+    "category": "hostile",
+    "subtitle": "subtitles.lumaboss_living",
+    "sounds": [
+      {
+        "name": "the_legende_of_luma:lumaboss_living",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:lumaboss_living1",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:lumaboss_living2",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:lumaboss_living3",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:lumaboss_living4",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:lumaboss_living5",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:lumaboss_living6",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:lumaboss_living7",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:lumaboss_living8",
+        "stream": false
+      }
+    ]
+  },
+  "lumaboss_death": {
+    "category": "music",
+    "subtitle": "subtitles.lumaboss_death",
+    "sounds": [
+      {
+        "name": "the_legende_of_luma:lumaboss_death",
+        "stream": true
+      }
+    ]
+  },
+  "luma_sensor_activat": {
+    "category": "block",
+    "subtitle": "subtitles.luma_sensor_activat",
+    "sounds": [
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat0",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat1",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat10",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat11",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat12",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat13",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat14",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat15",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat2",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat3",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat4",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat5",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat6",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat7",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat8",
+        "stream": false
+      },
+      {
+        "name": "the_legende_of_luma:luma_sensor_activat9",
+        "stream": false
+      }
+    ]
+  },
+  "the_luma_beat": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "the_legende_of_luma:the_luma_beat",
+        "stream": true
+      }
+    ]
+  },
+  "the_sound_of_luma": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "the_legende_of_luma:the_soud_of_luma",
+        "stream": true
+      }
+    ]
+  }
+}

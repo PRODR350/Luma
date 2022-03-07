@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "the_legende_of_luma:luma_spectre"
+    },
+    "title": {
+      "translate": "advancements.lumanite_spectre_avancement.title"
+    },
+    "description": {
+      "translate": "advancements.lumanite_spectre_avancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lumanite_spectre_avancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_legende_of_luma:luma_spectre"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "the_legende_of_luma:lumanite_avancement"
+}

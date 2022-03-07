@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "the_legende_of_luma:lumamoss"
+    },
+    "title": {
+      "translate": "advancements.luma_avancement.title"
+    },
+    "description": {
+      "translate": "advancements.luma_avancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "luma_avancement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "the_legende_of_luma:luma"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "the_legende_of_luma:luma_root_avencement"
+}

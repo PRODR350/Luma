@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:LumastoneSataire"
+      },
+      {
+        "value": "CUSTOM:LumacoblestoneStaire"
+      },
+      {
+        "value": "CUSTOM:LumabrickStair"
+      },
+      {
+        "value": "CUSTOM:LumaPlankStair"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "stairs",
+    "namespace": "minecraft"
+  }
+}

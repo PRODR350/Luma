@@ -1,0 +1,11 @@
+{
+  "parent": "the_legende_of_luma:custom/lumalogs_mushroom",
+  "textures": {
+    "all": "the_legende_of_luma:blocks/brown_mushroom_block",
+    "particle": "the_legende_of_luma:blocks/brown_mushroom_block",
+    "0": "the_legende_of_luma:blocks/stripped_luma_log",
+    "1": "the_legende_of_luma:blocks/stripped_luma_log_top",
+    "2": "the_legende_of_luma:blocks/mushroom_block_inside",
+    "3": "the_legende_of_luma:blocks/brown_mushroom_block"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "the_legende_of_luma:blocks/fireblock",
+    "particle": "the_legende_of_luma:blocks/fireblock"
+  }
+}

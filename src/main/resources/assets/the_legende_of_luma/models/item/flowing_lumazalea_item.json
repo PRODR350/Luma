@@ -1,0 +1,9 @@
+{
+  "parent": "the_legende_of_luma:custom/lumazalea",
+  "textures": {
+    "side": "the_legende_of_luma:blocks/flowering_lumazalea_side",
+    "top": "the_legende_of_luma:blocks/flowering_lumazalea_top",
+    "plant": "the_legende_of_luma:blocks/flowering_lumaazalea",
+    "particle": "the_legende_of_luma:items/flowering_lumaazalea"
+  }
+}

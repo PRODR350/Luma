@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "the_legende_of_luma:lumacobblestone"
+    },
+    "1": {
+      "item": "the_legende_of_luma:lumacobblestone"
+    },
+    "2": {
+      "item": "the_legende_of_luma:lumacobblestone"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_axe",
+    "count": 1
+  }
+}

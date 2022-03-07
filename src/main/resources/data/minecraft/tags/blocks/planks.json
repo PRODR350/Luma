@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "the_legende_of_luma:luma_plank_fencegate",
+    "the_legende_of_luma:luma_plank_door",
+    "the_legende_of_luma:luma_plank_trap_door",
+    "the_legende_of_luma:luma_plank_slab",
+    "the_legende_of_luma:luma_plank_stair",
+    "the_legende_of_luma:lumaplank",
+    "the_legende_of_luma:luma_plank_fence"
+  ]
+}

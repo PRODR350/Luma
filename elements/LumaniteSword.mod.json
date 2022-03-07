@@ -1,0 +1,34 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "lumanite_sword",
+    "customModelName": "Normal",
+    "name": "Luma Sword",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:Mod30Block"
+    },
+    "stackSize": 0,
+    "enchantability": 25,
+    "useDuration": 1,
+    "toolType": 17.0,
+    "damageCount": 100,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 6.300000000000001,
+    "specialInfo": [],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "hasDispenseBehavior": false
+  }
+}

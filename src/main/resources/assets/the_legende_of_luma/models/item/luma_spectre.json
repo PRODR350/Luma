@@ -1,0 +1,8 @@
+{
+  "parent": "the_legende_of_luma:custom/lumanitesword",
+  "textures": {
+    "0": "the_legende_of_luma:blocks/lumacobblestone",
+    "1": "the_legende_of_luma:blocks/lumanit_lamp",
+    "particle": "the_legende_of_luma:items/debug_item_texture_0"
+  }
+}

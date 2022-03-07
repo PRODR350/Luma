@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_luma",
+    "name": "Theb Sound Of Luma",
+    "description": "PRODR - Luma",
+    "creativeTab": {
+      "value": "CUSTOM:Mod30Block"
+    },
+    "music": {
+      "value": "CUSTOM:the_sound_of_luma"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

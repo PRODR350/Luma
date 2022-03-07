@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "the_legende_of_luma:blocks/lumalog_plank",
+    "particle": "the_legende_of_luma:blocks/lumalog_plank"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "command",
+  "definition": {
+    "commandName": "debug-mod",
+    "permissionLevel": "4",
+    "onCommandExecuted": {
+      "name": "DebugCommandExecuted"
+    }
+  }
+}

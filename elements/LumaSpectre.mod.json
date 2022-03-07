@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "debug_item_texture_0",
+    "customModelName": "lumanitesword:default",
+    "name": "Luma Spectre",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Mod30Block"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:LumaChardItem"
+    },
+    "shootConstantly": false,
+    "usageCount": 350,
+    "actionSound": {
+      "value": "block.beacon.power_select"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "LumaSpectreCanUseRangedItem"
+    },
+    "bulletPower": 2.0,
+    "bulletDamage": 3.9999999999999996,
+    "bulletKnockback": 3,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:LumaChardItem"
+    },
+    "bulletModel": "Modelcustom_model",
+    "customBulletModelTexture": "bullettexture.png",
+    "onBulletHitsBlock": {
+      "name": "LumaniteSpectreBulletQuandUneBalleToucheUnBloc"
+    },
+    "onBulletHitsPlayer": {
+      "name": "LumaniteSpectreBulletQuandUneBalleToucheUnJoueur"
+    }
+  }
+}

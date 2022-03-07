@@ -1,0 +1,8 @@
+{
+  "parent": "the_legende_of_luma:custom/clover",
+  "textures": {
+    "all": "the_legende_of_luma:blocks/clover_block",
+    "particle": "the_legende_of_luma:blocks/clover_block",
+    "missing": "the_legende_of_luma:blocks/clover_block"
+  }
+}

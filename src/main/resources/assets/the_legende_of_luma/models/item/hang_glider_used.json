@@ -1,0 +1,9 @@
+{
+  "parent": "the_legende_of_luma:custom/glader_used",
+  "textures": {
+    "0": "the_legende_of_luma:blocks/glider_down",
+    "1": "the_legende_of_luma:blocks/glider_up",
+    "missing": "the_legende_of_luma:blocks/",
+    "particle": "the_legende_of_luma:items/glider"
+  }
+}

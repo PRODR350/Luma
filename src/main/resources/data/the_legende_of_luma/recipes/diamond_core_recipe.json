@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_legende_of_luma:diamond_nugget_item"
+    },
+    "1": {
+      "item": "the_legende_of_luma:powder_luma_chard_item"
+    },
+    "2": {
+      "item": "the_legende_of_luma:diamond_nugget_item"
+    },
+    "3": {
+      "item": "the_legende_of_luma:powder_luma_chard_item"
+    },
+    "4": {
+      "item": "the_legende_of_luma:coal_powder_item"
+    },
+    "5": {
+      "item": "the_legende_of_luma:powder_luma_chard_item"
+    },
+    "6": {
+      "item": "the_legende_of_luma:diamond_nugget_item"
+    },
+    "7": {
+      "item": "the_legende_of_luma:powder_luma_chard_item"
+    },
+    "8": {
+      "item": "the_legende_of_luma:diamond_nugget_item"
+    }
+  },
+  "result": {
+    "item": "the_legende_of_luma:diamond_core",
+    "count": 1
+  }
+}

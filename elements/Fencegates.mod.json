@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:LumaPlankFencegate"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "fence_gates",
+    "namespace": "minecraft"
+  }
+}

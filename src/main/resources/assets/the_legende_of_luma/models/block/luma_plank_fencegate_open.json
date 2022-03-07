@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "texture": "the_legende_of_luma:blocks/lumalog_plank"
+  }
+}

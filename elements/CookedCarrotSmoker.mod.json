@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "xpReward": 2.0,
+    "cookingTime": 75,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "Items.CARROT"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedCarrot"
+    },
+    "name": "cooked_carrot_smoker",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_lumabeat",
+    "name": "The Beat Of Luma",
+    "description": "PRODR - Luma Beat",
+    "creativeTab": {
+      "value": "CUSTOM:Mod30Block"
+    },
+    "music": {
+      "value": "CUSTOM:the_luma_beat"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

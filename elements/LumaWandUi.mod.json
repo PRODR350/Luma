@@ -1,0 +1,78 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 240,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Enter",
+          "onClick": {
+            "name": "ExecuteUiWandParameter"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Enter",
+          "x": 186,
+          "y": 170
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "Invisible",
+          "name": "Invisible",
+          "x": 243,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Entity :",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Entity :",
+          "x": 139,
+          "y": 47
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "NoGravity",
+          "name": "NoGravity",
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "TageName",
+          "width": 120,
+          "height": 20,
+          "name": "TageName",
+          "x": 150,
+          "y": 134
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

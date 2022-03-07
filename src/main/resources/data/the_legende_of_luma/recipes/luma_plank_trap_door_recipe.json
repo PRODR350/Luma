@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "the_legende_of_luma:lumaplank"
+    },
+    "1": {
+      "item": "the_legende_of_luma:lumaplank"
+    },
+    "2": {
+      "item": "the_legende_of_luma:lumaplank"
+    },
+    "3": {
+      "item": "the_legende_of_luma:lumaplank"
+    },
+    "4": {
+      "item": "the_legende_of_luma:lumaplank"
+    },
+    "5": {
+      "item": "the_legende_of_luma:lumaplank"
+    }
+  },
+  "result": {
+    "item": "the_legende_of_luma:luma_plank_trap_door",
+    "count": 2
+  }
+}

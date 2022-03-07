@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_legende_of_luma:blocks/luma_breaker",
+    "up": "the_legende_of_luma:blocks/luma_breaker",
+    "north": "the_legende_of_luma:blocks/luma_breaker_face",
+    "east": "the_legende_of_luma:blocks/luma_breaker",
+    "south": "the_legende_of_luma:blocks/luma_breaker",
+    "west": "the_legende_of_luma:blocks/luma_breaker",
+    "particle": "the_legende_of_luma:blocks/luma_breaker"
+  }
+}

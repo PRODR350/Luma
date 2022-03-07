@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_legende_of_luma:lumanit_cristal"
+    },
+    "1": {
+      "item": "the_legende_of_luma:lumanit_cristal"
+    },
+    "2": {
+      "item": "the_legende_of_luma:lumanit_cristal"
+    },
+    "3": {
+      "item": "the_legende_of_luma:lumanit_cristal"
+    },
+    "4": {
+      "item": "minecraft:torch"
+    },
+    "5": {
+      "item": "the_legende_of_luma:lumanit_cristal"
+    },
+    "6": {
+      "item": "the_legende_of_luma:lumanit_cristal"
+    },
+    "7": {
+      "item": "the_legende_of_luma:lumanit_cristal"
+    },
+    "8": {
+      "item": "the_legende_of_luma:lumanit_cristal"
+    }
+  },
+  "result": {
+    "item": "the_legende_of_luma:lumanit_lamp",
+    "count": 1
+  }
+}

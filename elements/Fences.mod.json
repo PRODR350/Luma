@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:LumaPlankFence"
+      },
+      {
+        "value": "CUSTOM:LumabrickFence"
+      },
+      {
+        "value": "CUSTOM:LumastoneFence"
+      },
+      {
+        "value": "CUSTOM:LumacobblestoneFence"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "fences",
+    "namespace": "minecraft"
+  }
+}

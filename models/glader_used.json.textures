@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "glider_down",
+        "1": "glider_up",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "missing": "clover_block"
+      },
+      "name": "default"
+    },
+    "clover4": {
+      "map": {
+        "missing": "four_leaf_clover_block"
+      },
+      "name": "clover4"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 266,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Luma Sensor",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Luma Sensor",
+          "x": 85,
+          "y": 42
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Enter",
+          "width": 50,
+          "height": 20,
+          "name": "Enter",
+          "x": 188,
+          "y": 174
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

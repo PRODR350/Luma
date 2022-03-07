@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:LumastoneSlab"
+      },
+      {
+        "value": "CUSTOM:LumacoblestoneSlab"
+      },
+      {
+        "value": "CUSTOM:LumabrickSlab"
+      },
+      {
+        "value": "CUSTOM:LumaPlankSlab"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "slabs",
+    "namespace": "minecraft"
+  }
+}

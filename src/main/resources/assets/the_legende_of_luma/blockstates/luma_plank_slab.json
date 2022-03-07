@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "the_legende_of_luma:block/luma_plank_slab"
+    },
+    "type=top": {
+      "model": "the_legende_of_luma:block/luma_plank_slab_top"
+    },
+    "type=double": {
+      "model": "the_legende_of_luma:block/luma_plank_slab_full"
+    }
+  }
+}

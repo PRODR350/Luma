@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_legende_of_luma:blocks/smooth_lumastone_brick",
+    "up": "the_legende_of_luma:blocks/smooth_lumastone_brick",
+    "north": "the_legende_of_luma:blocks/smooth_lumastone_brick",
+    "east": "the_legende_of_luma:blocks/smooth_lumastone_brick",
+    "south": "the_legende_of_luma:blocks/smooth_lumastone_brick",
+    "west": "the_legende_of_luma:blocks/smooth_lumastone_brick",
+    "particle": "the_legende_of_luma:blocks/smooth_lumastone_brick"
+  }
+}

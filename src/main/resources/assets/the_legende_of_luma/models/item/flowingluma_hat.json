@@ -1,0 +1,8 @@
+{
+  "parent": "the_legende_of_luma:custom/luma_hat",
+  "textures": {
+    "0": "the_legende_of_luma:blocks/flowering_lumazalea_side",
+    "1": "the_legende_of_luma:blocks/flowering_lumazalea_top",
+    "particle": "the_legende_of_luma:items/lumaflowinghat_head"
+  }
+}

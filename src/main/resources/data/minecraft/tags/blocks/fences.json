@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "the_legende_of_luma:lumabrick_fence",
+    "the_legende_of_luma:lumastone_fence",
+    "the_legende_of_luma:luma_plank_fence",
+    "the_legende_of_luma:lumacobblestone_fence"
+  ]
+}

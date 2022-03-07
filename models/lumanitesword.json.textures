@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lumacobblestone",
+        "1": "lumanit_lamp"
+      },
+      "name": "default"
+    }
+  }
+}

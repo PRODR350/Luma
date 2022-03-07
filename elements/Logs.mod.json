@@ -1,0 +1,32 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Lumalog"
+      },
+      {
+        "value": "CUSTOM:LumaBrowMushroomLog"
+      },
+      {
+        "value": "CUSTOM:LumaRedMushroomLog"
+      },
+      {
+        "value": "CUSTOM:StrippedLumaBlock"
+      },
+      {
+        "value": "CUSTOM:StrippedLumaBrownMushroomLog"
+      },
+      {
+        "value": "CUSTOM:StrippedLumaRedMushroomLog"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

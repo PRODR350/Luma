@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Lumabrick"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:Lumabrick"
+      },
+      {
+        "value": "CUSTOM:Lumabrick"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:Lumabrick"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LumabrickFence"
+    },
+    "name": "luam_brick_fence_resipe",
+    "namespace": "mod"
+  }
+}

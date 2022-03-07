@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "the_legende_of_luma:blocks/lumalog_plank",
+    "top": "the_legende_of_luma:blocks/lumalog_plank",
+    "side": "the_legende_of_luma:blocks/lumalog_plank"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_legende_of_luma:block/inver_scult_luma_stone"
+    },
+    "facing=east": {
+      "model": "the_legende_of_luma:block/inver_scult_luma_stone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_legende_of_luma:block/inver_scult_luma_stone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_legende_of_luma:block/inver_scult_luma_stone",
+      "y": 270
+    }
+  }
+}

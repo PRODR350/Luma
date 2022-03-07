@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "experience": 2,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:carrot"
+  },
+  "result": {
+    "item": "the_legende_of_luma:cooked_carrot"
+  }
+}

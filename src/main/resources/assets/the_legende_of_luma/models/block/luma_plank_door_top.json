@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "the_legende_of_luma:blocks/lumaplank_door_bottom",
+    "top": "the_legende_of_luma:blocks/lumaplank_door_top"
+  }
+}

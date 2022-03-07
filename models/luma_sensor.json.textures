@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lumastone",
+        "2": "mossy_lumacobblestone",
+        "3": "sensor_moss",
+        "missing": "lumamoss"
+      },
+      "name": "default"
+    }
+  }
+}

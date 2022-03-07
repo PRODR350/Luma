@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "the_legende_of_luma:lumastone"
+    },
+    "title": {
+      "translate": "advancements.lumastone_avancement.title"
+    },
+    "description": {
+      "translate": "advancements.lumastone_avancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lumastone_avancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_legende_of_luma:lumastone"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "the_legende_of_luma:lumacobblestone_avancement"
+}

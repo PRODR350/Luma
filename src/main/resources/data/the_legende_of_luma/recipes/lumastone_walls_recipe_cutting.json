@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "the_legende_of_luma:lumastone"
+  },
+  "result": "the_legende_of_luma:lumastone_walls"
+}
