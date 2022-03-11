@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Luma Guardin",
     "mobLabel": "",
-    "mobModelName": "Biped",
+    "mobModelName": "Modelirongolem",
     "mobModelTexture": "lumanite_guardian.png",
     "mobModelGlowTexture": "lumanite_guardian.png",
     "modelWidth": 0.6,

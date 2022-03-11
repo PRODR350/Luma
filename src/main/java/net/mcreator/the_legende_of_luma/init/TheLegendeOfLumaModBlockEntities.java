@@ -11,7 +11,6 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.the_legende_of_luma.block.entity.ProximitySensorBlockEntity;
 import net.mcreator.the_legende_of_luma.block.entity.LilumplantBlockEntity;
 import net.mcreator.the_legende_of_luma.block.entity.LiliumStage2BlockEntity;
 import net.mcreator.the_legende_of_luma.block.entity.LiliumStage1BlockEntity;
@@ -26,8 +25,6 @@ public class TheLegendeOfLumaModBlockEntities {
 	private static final List<BlockEntityType<?>> REGISTRY = new ArrayList<>();
 	public static final BlockEntityType<?> IRON_FURNACE = register("the_legende_of_luma:iron_furnace", TheLegendeOfLumaModBlocks.IRON_FURNACE,
 			IronFurnaceBlockEntity::new);
-	public static final BlockEntityType<?> PROXIMITY_SENSOR = register("the_legende_of_luma:proximity_sensor",
-			TheLegendeOfLumaModBlocks.PROXIMITY_SENSOR, ProximitySensorBlockEntity::new);
 	public static final BlockEntityType<?> LILUMPLANT = register("the_legende_of_luma:lilumplant", TheLegendeOfLumaModBlocks.LILUMPLANT,
 			LilumplantBlockEntity::new);
 	public static final BlockEntityType<?> LILIUM_STAG_0 = register("the_legende_of_luma:lilium_stag_0", TheLegendeOfLumaModBlocks.LILIUM_STAG_0,

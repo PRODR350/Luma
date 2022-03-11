@@ -14,7 +14,6 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import net.mcreator.the_legende_of_luma.client.renderer.LumaGuardinRenderer;
 import net.mcreator.the_legende_of_luma.client.renderer.LumaChickenRenderer;
 import net.mcreator.the_legende_of_luma.client.renderer.LumaBossRenderer;
-import net.mcreator.the_legende_of_luma.client.renderer.BosstestRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class TheLegendeOfLumaModEntityRenderers {
@@ -29,6 +28,5 @@ public class TheLegendeOfLumaModEntityRenderers {
 		event.registerEntityRenderer(TheLegendeOfLumaModEntities.EMERALD_SNOWBALL, ThrownItemRenderer::new);
 		event.registerEntityRenderer(TheLegendeOfLumaModEntities.DIAMOND_SNOWBALL, ThrownItemRenderer::new);
 		event.registerEntityRenderer(TheLegendeOfLumaModEntities.NETHERITE_SNOWBALL, ThrownItemRenderer::new);
-		event.registerEntityRenderer(TheLegendeOfLumaModEntities.BOSSTEST, BosstestRenderer::new);
 	}
 }

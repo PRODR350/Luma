@@ -9,7 +9,7 @@ import net.mcreator.the_legende_of_luma.init.TheLegendeOfLumaModBlocks;
 
 public class LumaVinePlantBottomUptadeTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (world.isEmptyBlock(new BlockPos((int) x, (int) (y + 1), (int) z)) == true) {
+		if (world.isEmptyBlock(new BlockPos((int) x, (int) (y + 1), (int) z))) {
 			if (world instanceof Level _level)
 				_level.updateNeighborsAt(new BlockPos((int) x, (int) y, (int) z),
 						_level.getBlockState(new BlockPos((int) x, (int) y, (int) z)).getBlock());
@@ -18,7 +18,7 @@ public class LumaVinePlantBottomUptadeTickProcedure {
 						new BlockPos((int) x, (int) y, (int) z));
 				world.destroyBlock(new BlockPos((int) x, (int) y, (int) z), false);
 			}
-		} else if (world.isEmptyBlock(new BlockPos((int) x, (int) (y - 1), (int) z)) == true) {
+		} else if (world.isEmptyBlock(new BlockPos((int) x, (int) (y - 1), (int) z))) {
 			world.setBlock(new BlockPos((int) x, (int) y, (int) z), TheLegendeOfLumaModBlocks.LUMA_VINE_PLANT.defaultBlockState(), 3);
 			world.setBlock(new BlockPos((int) x, (int) (y - 1), (int) z), TheLegendeOfLumaModBlocks.LUMA_VINE_TOP.defaultBlockState(), 3);
 		}

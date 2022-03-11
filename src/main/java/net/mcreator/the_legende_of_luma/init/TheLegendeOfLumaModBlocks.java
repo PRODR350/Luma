@@ -15,14 +15,12 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.the_legende_of_luma.block.VerticalScultLumaBrickBlock;
 import net.mcreator.the_legende_of_luma.block.TesteeBlock;
-import net.mcreator.the_legende_of_luma.block.TestBlock;
 import net.mcreator.the_legende_of_luma.block.StrippedLumaRedMushroomLogBlock;
 import net.mcreator.the_legende_of_luma.block.StrippedLumaBrownMushroomLogBlock;
 import net.mcreator.the_legende_of_luma.block.StrippedLumaBlockBlock;
 import net.mcreator.the_legende_of_luma.block.StandeBolckBlock;
 import net.mcreator.the_legende_of_luma.block.SmoothScultLmaStoneBlock;
 import net.mcreator.the_legende_of_luma.block.ScultLumastoneBrickBlock;
-import net.mcreator.the_legende_of_luma.block.ProximitySensorBlock;
 import net.mcreator.the_legende_of_luma.block.MossyCobblestoneBlock;
 import net.mcreator.the_legende_of_luma.block.LumazaleaplantBlock;
 import net.mcreator.the_legende_of_luma.block.LumastoneWallsBlock;
@@ -68,7 +66,6 @@ import net.mcreator.the_legende_of_luma.block.GeneratDungeonDirectionBlock;
 import net.mcreator.the_legende_of_luma.block.FourLeafCloverPlantBlock;
 import net.mcreator.the_legende_of_luma.block.FlowinglumazaleaPlantBlock;
 import net.mcreator.the_legende_of_luma.block.FlowingLumazaleaLeaveBlock;
-import net.mcreator.the_legende_of_luma.block.FireBlockBlock;
 import net.mcreator.the_legende_of_luma.block.ExpOreBlock;
 import net.mcreator.the_legende_of_luma.block.CloverPlanteBlock;
 import net.mcreator.the_legende_of_luma.block.ClockBlockPoweredBlock;
@@ -102,7 +99,6 @@ public class TheLegendeOfLumaModBlocks {
 	public static final Block LUMANIT_LAMP = register(new LumanitLampBlock());
 	public static final Block LUMAMOSS_CARPET = register(new LumamossCarpetBlock());
 	public static final Block IRON_FURNACE = register(new IronFurnaceBlock());
-	public static final Block PROXIMITY_SENSOR = register(new ProximitySensorBlock());
 	public static final Block LUMABRICK_STAIR = register(new LumabrickStairBlock());
 	public static final Block LUMABRICK_SLAB = register(new LumabrickSlabBlock());
 	public static final Block LUMABRICK_WALL = register(new LumabrickWallBlock());
@@ -135,7 +131,6 @@ public class TheLegendeOfLumaModBlocks {
 	public static final Block LUMA_VINE_PLANT = register(new LumaVinePlantBlock());
 	public static final Block LUMA_VINE_TOP = register(new LumaVineTopBlock());
 	public static final Block FLOWING_LUMAZALEA_LEAVE = register(new FlowingLumazaleaLeaveBlock());
-	public static final Block TEST = register(new TestBlock());
 	public static final Block TESTEE = register(new TesteeBlock());
 	public static final Block FOUR_LEAF_CLOVER_PLANT = register(new FourLeafCloverPlantBlock());
 	public static final Block CLOCK_BLOCK_POWERED = register(new ClockBlockPoweredBlock());
@@ -149,7 +144,6 @@ public class TheLegendeOfLumaModBlocks {
 	public static final Block LILIUM_STAGE_1 = register(new LiliumStage1Block());
 	public static final Block LILIUM_STAGE_2 = register(new LiliumStage2Block());
 	public static final Block LILIUM_STAGE_01 = register(new LiliumStage01Block());
-	public static final Block FIRE_BLOCK = register(new FireBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -166,7 +160,6 @@ public class TheLegendeOfLumaModBlocks {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			LumamossCarpetBlock.registerRenderLayer();
-			ProximitySensorBlock.registerRenderLayer();
 			LilumplantBlock.registerRenderLayer();
 			LumazaleaplantBlock.registerRenderLayer();
 			FlowinglumazaleaPlantBlock.registerRenderLayer();
@@ -188,7 +181,6 @@ public class TheLegendeOfLumaModBlocks {
 			LiliumStage1Block.registerRenderLayer();
 			LiliumStage2Block.registerRenderLayer();
 			LiliumStage01Block.registerRenderLayer();
-			FireBlockBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent

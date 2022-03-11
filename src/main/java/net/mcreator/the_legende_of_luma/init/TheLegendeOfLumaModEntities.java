@@ -23,7 +23,6 @@ import net.mcreator.the_legende_of_luma.entity.IronSnowballEntity;
 import net.mcreator.the_legende_of_luma.entity.GoldenSnowballEntity;
 import net.mcreator.the_legende_of_luma.entity.EmeraldSnowballEntity;
 import net.mcreator.the_legende_of_luma.entity.DiamondSnowballEntity;
-import net.mcreator.the_legende_of_luma.entity.BosstestEntity;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -61,9 +60,6 @@ public class TheLegendeOfLumaModEntities {
 			EntityType.Builder.<NetheriteSnowballEntity>of(NetheriteSnowballEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(NetheriteSnowballEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final EntityType<BosstestEntity> BOSSTEST = register("bosstest",
-			EntityType.Builder.<BosstestEntity>of(BosstestEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-					.setUpdateInterval(3).setCustomClientFactory(BosstestEntity::new).sized(0.4f, 0.3f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);
@@ -82,7 +78,6 @@ public class TheLegendeOfLumaModEntities {
 			LumaGuardinEntity.init();
 			LumaChickenEntity.init();
 			LumaBossEntity.init();
-			BosstestEntity.init();
 		});
 	}
 
@@ -91,6 +86,5 @@ public class TheLegendeOfLumaModEntities {
 		event.put(LUMA_GUARDIN, LumaGuardinEntity.createAttributes().build());
 		event.put(LUMA_CHICKEN, LumaChickenEntity.createAttributes().build());
 		event.put(LUMA_BOSS, LumaBossEntity.createAttributes().build());
-		event.put(BOSSTEST, BosstestEntity.createAttributes().build());
 	}
 }

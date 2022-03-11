@@ -127,9 +127,6 @@
     "onDestroyedByPlayer": {
       "name": "BlueBerriesStage3RightClickOnBlock"
     },
-    "onEntityCollides": {
-      "name": "BlueBerriesStage1EntityWalksOnTheBlock"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

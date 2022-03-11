@@ -47,7 +47,7 @@ public class LumaDecorFallLog2Feature extends Feature<NoneFeatureConfiguration> 
 			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("the_legende_of_luma", "luma_decor_log2"));
 		if (template == null)
 			return false;
-		if ((context.random().nextInt(1000000) + 1) <= 250) {
+		if ((context.random().nextInt(1000000) + 1) <= 500000) {
 			boolean anyPlaced = false;
 			int count = context.random().nextInt(2) + 1;
 			for (int a = 0; a < count; a++) {

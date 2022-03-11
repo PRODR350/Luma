@@ -5,7 +5,7 @@
     "structure": "luma_decor_lumemossycobblestone2",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 250000,
+    "spawnProbability": 750000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 3,
     "spawnLocation": "Ground",

@@ -36,7 +36,7 @@ public class ExpOreBlock extends Block {
 	@Override
 	public boolean removedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
 		boolean retval = super.removedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
-		ExpOreBlockDestroyedByPlayerProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
+		ExpOreBlockDestroyedByPlayerProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return retval;
 	}
 }

@@ -48,7 +48,7 @@ public class LumaDecorLumaleavePathFeature extends Feature<NoneFeatureConfigurat
 					.getOrCreate(new ResourceLocation("the_legende_of_luma", "luma_decor_lumaleavepath"));
 		if (template == null)
 			return false;
-		if ((context.random().nextInt(1000000) + 1) <= 175000) {
+		if ((context.random().nextInt(1000000) + 1) <= 375000) {
 			boolean anyPlaced = false;
 			int count = context.random().nextInt(11) + 2;
 			for (int a = 0; a < count; a++) {

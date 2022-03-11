@@ -15,7 +15,7 @@
       "value": "CUSTOM:LumaChardItem"
     },
     "shootConstantly": false,
-    "usageCount": 350,
+    "usageCount": 375,
     "actionSound": {
       "value": "block.beacon.power_select"
     },
@@ -34,13 +34,16 @@
     "bulletItemTexture": {
       "value": "CUSTOM:LumaChardItem"
     },
-    "bulletModel": "Modelcustom_model",
+    "bulletModel": "Default",
     "customBulletModelTexture": "bullettexture.png",
     "onBulletHitsBlock": {
       "name": "LumaniteSpectreBulletQuandUneBalleToucheUnBloc"
     },
     "onBulletHitsPlayer": {
       "name": "LumaniteSpectreBulletQuandUneBalleToucheUnJoueur"
+    },
+    "onBulletFlyingTick": {
+      "name": "LumaSpectreWhileProjectileFlyingTick"
     }
   }
 }

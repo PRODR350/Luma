@@ -5,7 +5,7 @@
     "structure": "luma_decor_log1",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 250000,
+    "spawnProbability": 500000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 2,
     "spawnLocation": "Ground",

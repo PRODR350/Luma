@@ -10,7 +10,9 @@ import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.effect.MobEffect;
 
+import net.mcreator.the_legende_of_luma.potion.StepBackMobEffect;
 import net.mcreator.the_legende_of_luma.potion.LiumEffectMobEffect;
+import net.mcreator.the_legende_of_luma.potion.DashMobEffect;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -19,6 +21,8 @@ import java.util.ArrayList;
 public class TheLegendeOfLumaModMobEffects {
 	private static final List<MobEffect> REGISTRY = new ArrayList<>();
 	public static final MobEffect LIUM_EFFECT = register(new LiumEffectMobEffect());
+	public static final MobEffect STEP_BACK = register(new StepBackMobEffect());
+	public static final MobEffect DASH = register(new DashMobEffect());
 
 	private static MobEffect register(MobEffect effect) {
 		REGISTRY.add(effect);

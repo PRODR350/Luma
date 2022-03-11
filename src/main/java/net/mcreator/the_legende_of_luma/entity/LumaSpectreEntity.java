@@ -21,6 +21,7 @@ import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.the_legende_of_luma.procedures.LumaniteSpectreBulletQuandUneBalleToucheUnJoueurProcedure;
 import net.mcreator.the_legende_of_luma.procedures.LumaniteSpectreBulletQuandUneBalleToucheUnBlocProcedure;
+import net.mcreator.the_legende_of_luma.procedures.LumaSpectreWhileProjectileFlyingTickProcedure;
 import net.mcreator.the_legende_of_luma.init.TheLegendeOfLumaModItems;
 import net.mcreator.the_legende_of_luma.init.TheLegendeOfLumaModEntities;
 
@@ -70,7 +71,7 @@ public class LumaSpectreEntity extends AbstractArrow implements ItemSupplier {
 		Level world = this.level;
 		Entity imediatesourceentity = this;
 
-		LumaniteSpectreBulletQuandUneBalleToucheUnJoueurProcedure.execute(world, x, y, z);
+		LumaniteSpectreBulletQuandUneBalleToucheUnJoueurProcedure.execute(entity);
 	}
 
 	@Override
@@ -88,9 +89,11 @@ public class LumaSpectreEntity extends AbstractArrow implements ItemSupplier {
 		Level world = this.level;
 		Entity entity = this.getOwner();
 		Entity imediatesourceentity = this;
+
+		LumaSpectreWhileProjectileFlyingTickProcedure.execute(world, x, y, z);
 		if (this.inGround) {
 
-			LumaniteSpectreBulletQuandUneBalleToucheUnBlocProcedure.execute(world, x, y, z, entity);
+			LumaniteSpectreBulletQuandUneBalleToucheUnBlocProcedure.execute(world, x, y, z);
 			this.discard();
 		}
 	}

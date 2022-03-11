@@ -37,7 +37,7 @@ public class HangGliderItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		NotHangGliderRightClickProcedure.execute(world, x, y, z, entity, itemstack);
+		NotHangGliderRightClickProcedure.execute(world, x, y, z, entity);
 		return ar;
 	}
 }

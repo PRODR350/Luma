@@ -48,7 +48,7 @@ public class LumaDecorLumamossycobblestone2Feature extends Feature<NoneFeatureCo
 					.getOrCreate(new ResourceLocation("the_legende_of_luma", "luma_decor_lumemossycobblestone2"));
 		if (template == null)
 			return false;
-		if ((context.random().nextInt(1000000) + 1) <= 250000) {
+		if ((context.random().nextInt(1000000) + 1) <= 750000) {
 			boolean anyPlaced = false;
 			int count = context.random().nextInt(3) + 1;
 			for (int a = 0; a < count; a++) {

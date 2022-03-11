@@ -2,7 +2,6 @@ package net.mcreator.the_legende_of_luma.procedures;
 
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.CapabilityItemHandler;
-import net.minecraftforge.fmllegacy.server.ServerLifecycleHooks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
@@ -17,11 +16,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.ChatType;
 import net.minecraft.client.Minecraft;
-import net.minecraft.Util;
 
 import net.mcreator.the_legende_of_luma.network.TheLegendeOfLumaModVariables;
 import net.mcreator.the_legende_of_luma.init.TheLegendeOfLumaModItems;
@@ -86,11 +81,6 @@ public class PlayerUpdateTickProcedure {
 						Clover = Clover + (itemstackiterator).getCount();
 						Clover = Clover - 1;
 						if (Clover <= 0) {
-							if (!world.isClientSide()) {
-								MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
-								if (mcserv != null)
-									mcserv.getPlayerList().broadcastMessage(new TextComponent("Message"), ChatType.SYSTEM, Util.NIL_UUID);
-							}
 							Clover = 600;
 							if (entity instanceof Player _player) {
 								ItemStack _stktoremove = new ItemStack(TheLegendeOfLumaModItems.FOUR_LEAF_CLOVER_ITEM);

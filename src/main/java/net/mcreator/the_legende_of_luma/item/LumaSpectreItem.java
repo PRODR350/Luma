@@ -21,7 +21,7 @@ import net.mcreator.the_legende_of_luma.entity.LumaSpectreEntity;
 
 public class LumaSpectreItem extends Item {
 	public LumaSpectreItem() {
-		super(new Item.Properties().tab(TheLegendeOfLumaModTabs.TAB_MOD_30_BLOCK).durability(350));
+		super(new Item.Properties().tab(TheLegendeOfLumaModTabs.TAB_MOD_30_BLOCK).durability(375));
 		setRegistryName("luma_spectre");
 	}
 

@@ -44,7 +44,7 @@ public class BlueBerriesStage2OnBlockRightClickedProcedure {
 			}
 			if (TheLegendeOfLumaModVariables.MapVariables.get(world).IsSuvie == true) {
 				if (entity instanceof Player _player) {
-					ItemStack _stktoremove = new ItemStack(Items.BONE_MEAL);
+					ItemStack _stktoremove = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
 					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
 							_player.inventoryMenu.getCraftSlots());
 				}

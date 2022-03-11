@@ -84,7 +84,6 @@ public class TheLegendeOfLumaModItems {
 	public static final Item LUMAMOSS_CARPET = register(TheLegendeOfLumaModBlocks.LUMAMOSS_CARPET, TheLegendeOfLumaModTabs.TAB_MOD_30_BLOCK);
 	public static final Item IRON_FURNACE = register(TheLegendeOfLumaModBlocks.IRON_FURNACE, TheLegendeOfLumaModTabs.TAB_MOD_30_BLOCK);
 	public static final Item LUMANIT_CRISTAL = register(new LumanitCristalItem());
-	public static final Item PROXIMITY_SENSOR = register(TheLegendeOfLumaModBlocks.PROXIMITY_SENSOR, TheLegendeOfLumaModTabs.TAB_MOD_30_BLOCK);
 	public static final Item LUMABRICK_STAIR = register(TheLegendeOfLumaModBlocks.LUMABRICK_STAIR, TheLegendeOfLumaModTabs.TAB_MOD_30_BLOCK);
 	public static final Item LUMABRICK_SLAB = register(TheLegendeOfLumaModBlocks.LUMABRICK_SLAB, TheLegendeOfLumaModTabs.TAB_MOD_30_BLOCK);
 	public static final Item LUMABRICK_WALL = register(TheLegendeOfLumaModBlocks.LUMABRICK_WALL, TheLegendeOfLumaModTabs.TAB_MOD_30_BLOCK);
@@ -141,7 +140,6 @@ public class TheLegendeOfLumaModItems {
 	public static final Item FLOWING_LUMAZALEA_LEAVE = register(TheLegendeOfLumaModBlocks.FLOWING_LUMAZALEA_LEAVE,
 			TheLegendeOfLumaModTabs.TAB_MOD_30_BLOCK);
 	public static final Item ULTRA_SATURATION = register(new UltraSaturationItem());
-	public static final Item TEST = register(TheLegendeOfLumaModBlocks.TEST, null);
 	public static final Item WAND = register(new WandItem());
 	public static final Item LUMA_SPECTRE = register(new LumaSpectreItem());
 	public static final Item LUMA_GUARDIN = register(new SpawnEggItem(TheLegendeOfLumaModEntities.LUMA_GUARDIN, -16764109, -16777165,
@@ -184,10 +182,6 @@ public class TheLegendeOfLumaModItems {
 	public static final Item LILIUM_STAGE_1 = register(TheLegendeOfLumaModBlocks.LILIUM_STAGE_1, null);
 	public static final Item LILIUM_STAGE_2 = register(TheLegendeOfLumaModBlocks.LILIUM_STAGE_2, null);
 	public static final Item LILIUM_STAGE_01 = register(TheLegendeOfLumaModBlocks.LILIUM_STAGE_01, null);
-	public static final Item FIRE_BLOCK = register(TheLegendeOfLumaModBlocks.FIRE_BLOCK, TheLegendeOfLumaModTabs.TAB_MOD_30_BLOCK);
-	public static final Item BOSSTEST = register(
-			new SpawnEggItem(TheLegendeOfLumaModEntities.BOSSTEST, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
-					.setRegistryName("bosstest_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

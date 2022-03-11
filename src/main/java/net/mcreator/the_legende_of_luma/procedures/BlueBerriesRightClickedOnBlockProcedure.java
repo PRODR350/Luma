@@ -4,11 +4,11 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.the_legende_of_luma.network.TheLegendeOfLumaModVariables;
-import net.mcreator.the_legende_of_luma.init.TheLegendeOfLumaModItems;
 import net.mcreator.the_legende_of_luma.init.TheLegendeOfLumaModBlocks;
 
 public class BlueBerriesRightClickedOnBlockProcedure {
@@ -19,10 +19,11 @@ public class BlueBerriesRightClickedOnBlockProcedure {
 				|| (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.DIRT
 				|| (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.FARMLAND
 				|| (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.COARSE_DIRT
+				|| (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == TheLegendeOfLumaModBlocks.LUMAMOSS
 				|| (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.PODZOL) {
 			if (TheLegendeOfLumaModVariables.MapVariables.get(world).IsSuvie == true) {
 				if (entity instanceof Player _player) {
-					ItemStack _stktoremove = new ItemStack(TheLegendeOfLumaModItems.BLUE_BERRIES);
+					ItemStack _stktoremove = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
 					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
 							_player.inventoryMenu.getCraftSlots());
 				}

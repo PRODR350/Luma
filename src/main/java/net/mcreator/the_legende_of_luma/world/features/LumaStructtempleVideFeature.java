@@ -47,7 +47,7 @@ public class LumaStructtempleVideFeature extends Feature<NoneFeatureConfiguratio
 			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("the_legende_of_luma", "luma_decor_temple"));
 		if (template == null)
 			return false;
-		if ((context.random().nextInt(1000000) + 1) <= 50000) {
+		if ((context.random().nextInt(1000000) + 1) <= 750000) {
 			boolean anyPlaced = false;
 			int count = context.random().nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {

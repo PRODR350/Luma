@@ -10,21 +10,19 @@ import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.GameType;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
-import net.minecraft.client.Minecraft;
 
+import net.mcreator.the_legende_of_luma.network.TheLegendeOfLumaModVariables;
 import net.mcreator.the_legende_of_luma.init.TheLegendeOfLumaModBlocks;
 
 import javax.annotation.Nullable;
@@ -319,31 +317,9 @@ public class LumamossRghtCklickProcedure {
 						List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(32 / 2d), e -> true)
 								.stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).collect(Collectors.toList());
 						for (Entity entityiterator : _entfound) {
-							if (entityiterator instanceof Player && (new Object() {
-								public boolean checkGamemode(Entity _ent) {
-									if (_ent instanceof ServerPlayer _serverPlayer) {
-										return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SURVIVAL;
-									} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
-										return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
-												&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId())
-														.getGameMode() == GameType.SURVIVAL;
-									}
-									return false;
-								}
-							}.checkGamemode(entityiterator) || new Object() {
-								public boolean checkGamemode(Entity _ent) {
-									if (_ent instanceof ServerPlayer _serverPlayer) {
-										return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.ADVENTURE;
-									} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
-										return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
-												&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId())
-														.getGameMode() == GameType.ADVENTURE;
-									}
-									return false;
-								}
-							}.checkGamemode(entityiterator))) {
+							if (TheLegendeOfLumaModVariables.MapVariables.get(world).IsSuvie == true) {
 								if (entityiterator instanceof Player _player) {
-									ItemStack _stktoremove = new ItemStack(Items.BONE_MEAL);
+									ItemStack _stktoremove = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
 									_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
 											_player.inventoryMenu.getCraftSlots());
 								}

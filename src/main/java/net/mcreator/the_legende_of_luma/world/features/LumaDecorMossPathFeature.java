@@ -48,7 +48,7 @@ public class LumaDecorMossPathFeature extends Feature<NoneFeatureConfiguration> 
 					.getOrCreate(new ResourceLocation("the_legende_of_luma", "luma_decor_moss_path"));
 		if (template == null)
 			return false;
-		if ((context.random().nextInt(1000000) + 1) <= 300000) {
+		if ((context.random().nextInt(1000000) + 1) <= 375000) {
 			boolean anyPlaced = false;
 			int count = context.random().nextInt(12) + 1;
 			for (int a = 0; a < count; a++) {

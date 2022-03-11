@@ -48,7 +48,7 @@ public class LumaDecorLitelMontaineFeature extends Feature<NoneFeatureConfigurat
 					.getOrCreate(new ResourceLocation("the_legende_of_luma", "luma_decor_littel_montaine"));
 		if (template == null)
 			return false;
-		if ((context.random().nextInt(1000000) + 1) <= 12000) {
+		if ((context.random().nextInt(1000000) + 1) <= 25000) {
 			boolean anyPlaced = false;
 			int count = context.random().nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {

@@ -5,7 +5,7 @@
     "structure": "luma_decor_lumaleavepath",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 175000,
+    "spawnProbability": 375000,
     "minCountPerChunk": 2,
     "maxCountPerChunk": 12,
     "spawnLocation": "Ground",

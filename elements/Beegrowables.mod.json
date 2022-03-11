@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:BlueBerriesStage0"
+      },
+      {
+        "value": "CUSTOM:BlueBerriesStage1"
+      },
+      {
+        "value": "CUSTOM:BlueBerriesStage2"
+      },
+      {
+        "value": "CUSTOM:BlueBerriesStage3"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "bee_growables",
+    "namespace": "minecraft"
+  }
+}

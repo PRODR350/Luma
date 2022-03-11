@@ -47,7 +47,7 @@ public class LumaTowerFeature extends Feature<NoneFeatureConfiguration> {
 			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("the_legende_of_luma", "tower"));
 		if (template == null)
 			return false;
-		if ((context.random().nextInt(1000000) + 1) <= 2375) {
+		if ((context.random().nextInt(1000000) + 1) <= 37000) {
 			boolean anyPlaced = false;
 			int count = context.random().nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {
