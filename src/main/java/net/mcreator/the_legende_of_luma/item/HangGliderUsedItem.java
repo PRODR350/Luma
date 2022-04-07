@@ -46,6 +46,6 @@ public class HangGliderUsedItem extends Item {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			HagGliderTickProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
+			HagGliderTickProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
 	}
 }

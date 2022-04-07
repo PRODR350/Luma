@@ -13,7 +13,9 @@
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [],
+    "rewardRecipes": [
+      "WoodenStick"
+    ],
     "rewardFunction": "No function",
     "rewardXP": 1,
     "achievementType": "goal",

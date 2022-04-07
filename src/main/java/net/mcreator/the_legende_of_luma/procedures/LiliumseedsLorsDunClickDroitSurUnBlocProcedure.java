@@ -24,8 +24,9 @@ public class LiliumseedsLorsDunClickDroitSurUnBlocProcedure {
 								|| (world.getBlockState(new BlockPos((int) x, (int) (y + 2), (int) z))).getBlock() == Blocks.CAVE_AIR))
 				&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
 						.getItem() == TheLegendeOfLumaModItems.LILIUMSEEDS) {
-			if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.FARMLAND) {
-				world.setBlock(new BlockPos((int) x, (int) (y + 1), (int) z), TheLegendeOfLumaModBlocks.LILIUM_STAG_0.defaultBlockState(), 3);
+			if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.FARMLAND
+					|| (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == TheLegendeOfLumaModBlocks.LUMAMOSS) {
+				world.setBlock(new BlockPos((int) x, (int) (y + 1), (int) z), TheLegendeOfLumaModBlocks.LILUM_STAGE_1.defaultBlockState(), 3);
 				if (TheLegendeOfLumaModVariables.MapVariables.get(world).IsSuvie == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(TheLegendeOfLumaModItems.LILIUMSEEDS);

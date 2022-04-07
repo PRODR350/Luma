@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "ermerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "the_legende_of_luma:emerald_craft",
+      "the_legende_of_luma:emerald_core_recipe",
+      "the_legende_of_luma:emerald_snow_ball_recipe"
+    ]
+  },
+  "parent": "the_legende_of_luma:luma_avancement"
+}

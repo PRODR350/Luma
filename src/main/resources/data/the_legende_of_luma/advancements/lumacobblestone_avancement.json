@@ -33,7 +33,13 @@
     }
   },
   "rewards": {
-    "experience": 1
+    "experience": 1,
+    "recipes": [
+      "the_legende_of_luma:lumacobblestone_slab_recip",
+      "the_legende_of_luma:lumacobblestone_fence_recipe",
+      "the_legende_of_luma:luma_cobblestone_fence_resipe",
+      "the_legende_of_luma:mossy_cobblestyone_recipe"
+    ]
   },
   "parent": "the_legende_of_luma:luma_avancement"
 }

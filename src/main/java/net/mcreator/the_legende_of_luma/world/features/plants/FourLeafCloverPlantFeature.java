@@ -29,7 +29,7 @@ public class FourLeafCloverPlantFeature extends DefaultFlowerFeature {
 
 							.build())
 			.decorated(FeatureDecorator.HEIGHTMAP.configured(new HeightmapConfiguration(Heightmap.Types.MOTION_BLOCKING))).squared().rarity(32)
-			.count(25);
+			.count(32);
 	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("forest"), new ResourceLocation("sunflower_plains"),
 			new ResourceLocation("plains"), new ResourceLocation("the_legende_of_luma:luma"));
 

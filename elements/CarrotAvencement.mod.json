@@ -13,7 +13,11 @@
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [],
+    "rewardRecipes": [
+      "CookedCarrotFurnace",
+      "CookedCarrotSmoker",
+      "CookedCarrotCampeFier"
+    ],
     "rewardFunction": "No function",
     "rewardXP": 1,
     "achievementType": "task",

@@ -178,10 +178,9 @@ public class TheLegendeOfLumaModItems {
 	public static final Item LUMA_FLOWING_HAT_ARMOR_HELMET = register(new LumaFlowingHatArmorItem.Helmet());
 	public static final Item LUMA_HAT = register(new LumaHatItem());
 	public static final Item FLOWINGLUMA_HAT = register(new FlowinglumaHatItem());
-	public static final Item LILIUM_STAG_0 = register(TheLegendeOfLumaModBlocks.LILIUM_STAG_0, null);
-	public static final Item LILIUM_STAGE_1 = register(TheLegendeOfLumaModBlocks.LILIUM_STAGE_1, null);
-	public static final Item LILIUM_STAGE_2 = register(TheLegendeOfLumaModBlocks.LILIUM_STAGE_2, null);
-	public static final Item LILIUM_STAGE_01 = register(TheLegendeOfLumaModBlocks.LILIUM_STAGE_01, null);
+	public static final Item LILUM_STAGE_1 = register(TheLegendeOfLumaModBlocks.LILUM_STAGE_1, CreativeModeTab.TAB_DECORATIONS);
+	public static final Item LILUM_STAGE_2 = register(TheLegendeOfLumaModBlocks.LILUM_STAGE_2, CreativeModeTab.TAB_DECORATIONS);
+	public static final Item LILUM_STAGE_3 = register(TheLegendeOfLumaModBlocks.LILUM_STAGE_3, CreativeModeTab.TAB_DECORATIONS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

@@ -33,7 +33,16 @@
     }
   },
   "rewards": {
-    "experience": 1
+    "experience": 1,
+    "recipes": [
+      "the_legende_of_luma:lumastone_slab_recipe_cutting",
+      "the_legende_of_luma:lumastone_staire_recipe",
+      "the_legende_of_luma:lumastone_slab_recipe",
+      "the_legende_of_luma:lumastone_walls_recipe_cutting",
+      "the_legende_of_luma:luma_stone_stair_recipe",
+      "the_legende_of_luma:luma_stone_fence_recipe",
+      "the_legende_of_luma:luma_stone_fence_resipe"
+    ]
   },
   "parent": "the_legende_of_luma:lumacobblestone_avancement"
 }

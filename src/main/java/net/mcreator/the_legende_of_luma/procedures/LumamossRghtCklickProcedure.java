@@ -328,35 +328,6 @@ public class LumamossRghtCklickProcedure {
 					}
 				}
 			}
-			if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == TheLegendeOfLumaModBlocks.LILIUM_STAG_0) {
-				if (world instanceof ServerLevel _level)
-					_level.getServer().getCommands().performCommand(
-							new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", new TextComponent(""),
-									_level.getServer(), null).withSuppressedOutput(),
-							"setblock ~ ~ ~ the_legende_of_luma:lilium_stage_1[half=lower]{}");
-				if (world instanceof ServerLevel _level)
-					_level.getServer().getCommands().performCommand(
-							new CommandSourceStack(CommandSource.NULL, new Vec3(x, (y + 1), z), Vec2.ZERO, _level, 4, "", new TextComponent(""),
-									_level.getServer(), null).withSuppressedOutput(),
-							"setblock ~ ~ ~ the_legende_of_luma:lilium_stage_01[half=upper]{}");
-				if (world instanceof ServerLevel _level)
-					_level.sendParticles(ParticleTypes.HAPPY_VILLAGER, x, (y + 2), z, 12, 3, 1, 3, 1);
-			}
-			if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == TheLegendeOfLumaModBlocks.LILIUM_STAGE_1
-					|| (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == TheLegendeOfLumaModBlocks.LILIUM_STAGE_01) {
-				if (world instanceof ServerLevel _level)
-					_level.getServer().getCommands().performCommand(
-							new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", new TextComponent(""),
-									_level.getServer(), null).withSuppressedOutput(),
-							"setblock ~ ~ ~ the_legende_of_luma:lilium_stage_1[half=lower]{}");
-				if (world instanceof ServerLevel _level)
-					_level.getServer().getCommands().performCommand(
-							new CommandSourceStack(CommandSource.NULL, new Vec3(x, (y + 1), z), Vec2.ZERO, _level, 4, "", new TextComponent(""),
-									_level.getServer(), null).withSuppressedOutput(),
-							"setblock ~ ~ ~ the_legende_of_luma:lilium_stage_1[half=upper]{}");
-				if (world instanceof ServerLevel _level)
-					_level.sendParticles(ParticleTypes.HAPPY_VILLAGER, x, (y + 2), z, 12, 3, 1, 3, 1);
-			}
 		}
 	}
 }

@@ -33,7 +33,11 @@
     }
   },
   "rewards": {
-    "experience": 1
+    "experience": 1,
+    "recipes": [
+      "the_legende_of_luma:lumanitlamprecipe",
+      "the_legende_of_luma:iron_furnace_craft"
+    ]
   },
   "parent": "the_legende_of_luma:luma_avancement"
 }

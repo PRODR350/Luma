@@ -56,10 +56,9 @@ import net.mcreator.the_legende_of_luma.block.LumaPlankFenceBlock;
 import net.mcreator.the_legende_of_luma.block.LumaPlankDoorBlock;
 import net.mcreator.the_legende_of_luma.block.LumaBrowMushroomLogBlock;
 import net.mcreator.the_legende_of_luma.block.LilumplantBlock;
-import net.mcreator.the_legende_of_luma.block.LiliumStage2Block;
-import net.mcreator.the_legende_of_luma.block.LiliumStage1Block;
-import net.mcreator.the_legende_of_luma.block.LiliumStage01Block;
-import net.mcreator.the_legende_of_luma.block.LiliumStag0Block;
+import net.mcreator.the_legende_of_luma.block.LilumStage3Block;
+import net.mcreator.the_legende_of_luma.block.LilumStage2Block;
+import net.mcreator.the_legende_of_luma.block.LilumStage1Block;
 import net.mcreator.the_legende_of_luma.block.IronFurnaceBlock;
 import net.mcreator.the_legende_of_luma.block.InverScultLumaStoneBlock;
 import net.mcreator.the_legende_of_luma.block.GeneratDungeonDirectionBlock;
@@ -140,10 +139,9 @@ public class TheLegendeOfLumaModBlocks {
 	public static final Block STRIPPED_LUMA_BLOCK = register(new StrippedLumaBlockBlock());
 	public static final Block STRIPPED_LUMA_BROWN_MUSHROOM_LOG = register(new StrippedLumaBrownMushroomLogBlock());
 	public static final Block STRIPPED_LUMA_RED_MUSHROOM_LOG = register(new StrippedLumaRedMushroomLogBlock());
-	public static final Block LILIUM_STAG_0 = register(new LiliumStag0Block());
-	public static final Block LILIUM_STAGE_1 = register(new LiliumStage1Block());
-	public static final Block LILIUM_STAGE_2 = register(new LiliumStage2Block());
-	public static final Block LILIUM_STAGE_01 = register(new LiliumStage01Block());
+	public static final Block LILUM_STAGE_1 = register(new LilumStage1Block());
+	public static final Block LILUM_STAGE_2 = register(new LilumStage2Block());
+	public static final Block LILUM_STAGE_3 = register(new LilumStage3Block());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -177,10 +175,9 @@ public class TheLegendeOfLumaModBlocks {
 			LumaRedMushroomLogBlock.registerRenderLayer();
 			StrippedLumaBrownMushroomLogBlock.registerRenderLayer();
 			StrippedLumaRedMushroomLogBlock.registerRenderLayer();
-			LiliumStag0Block.registerRenderLayer();
-			LiliumStage1Block.registerRenderLayer();
-			LiliumStage2Block.registerRenderLayer();
-			LiliumStage01Block.registerRenderLayer();
+			LilumStage1Block.registerRenderLayer();
+			LilumStage2Block.registerRenderLayer();
+			LilumStage3Block.registerRenderLayer();
 		}
 
 		@SubscribeEvent

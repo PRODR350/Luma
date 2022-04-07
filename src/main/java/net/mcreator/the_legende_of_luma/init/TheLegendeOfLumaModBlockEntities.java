@@ -12,9 +12,6 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.the_legende_of_luma.block.entity.LilumplantBlockEntity;
-import net.mcreator.the_legende_of_luma.block.entity.LiliumStage2BlockEntity;
-import net.mcreator.the_legende_of_luma.block.entity.LiliumStage1BlockEntity;
-import net.mcreator.the_legende_of_luma.block.entity.LiliumStag0BlockEntity;
 import net.mcreator.the_legende_of_luma.block.entity.IronFurnaceBlockEntity;
 
 import java.util.List;
@@ -27,12 +24,6 @@ public class TheLegendeOfLumaModBlockEntities {
 			IronFurnaceBlockEntity::new);
 	public static final BlockEntityType<?> LILUMPLANT = register("the_legende_of_luma:lilumplant", TheLegendeOfLumaModBlocks.LILUMPLANT,
 			LilumplantBlockEntity::new);
-	public static final BlockEntityType<?> LILIUM_STAG_0 = register("the_legende_of_luma:lilium_stag_0", TheLegendeOfLumaModBlocks.LILIUM_STAG_0,
-			LiliumStag0BlockEntity::new);
-	public static final BlockEntityType<?> LILIUM_STAGE_1 = register("the_legende_of_luma:lilium_stage_1", TheLegendeOfLumaModBlocks.LILIUM_STAGE_1,
-			LiliumStage1BlockEntity::new);
-	public static final BlockEntityType<?> LILIUM_STAGE_2 = register("the_legende_of_luma:lilium_stage_2", TheLegendeOfLumaModBlocks.LILIUM_STAGE_2,
-			LiliumStage2BlockEntity::new);
 
 	private static BlockEntityType<?> register(String registryname, Block block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		BlockEntityType<?> blockEntityType = BlockEntityType.Builder.of(supplier, block).build(null).setRegistryName(registryname);

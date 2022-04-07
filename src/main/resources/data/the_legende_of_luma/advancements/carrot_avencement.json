@@ -33,7 +33,12 @@
     }
   },
   "rewards": {
-    "experience": 1
+    "experience": 1,
+    "recipes": [
+      "the_legende_of_luma:cooked_carrot_furnace",
+      "the_legende_of_luma:cooked_carrot_smoker",
+      "the_legende_of_luma:cooked_carrot_campe_fier"
+    ]
   },
   "parent": "minecraft:husbandry/root"
 }

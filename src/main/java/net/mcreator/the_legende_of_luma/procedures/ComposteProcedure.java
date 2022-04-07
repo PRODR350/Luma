@@ -178,7 +178,9 @@ public class ComposteProcedure {
 				}
 			}
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-					.getItem() == TheLegendeOfLumaModItems.CLOVERITEM) {
+					.getItem() == TheLegendeOfLumaModItems.CLOVERITEM
+					|| (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
+							.getItem() == TheLegendeOfLumaModItems.LILIUMSEEDS) {
 				if (Math.random() < 0.7) {
 					if (Math.random() < 0.5) {
 						if (world instanceof ServerLevel _level)
@@ -259,6 +261,14 @@ public class ComposteProcedure {
 				if (TheLegendeOfLumaModVariables.MapVariables.get(world).IsSuvie == true) {
 					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
 							.getItem() == TheLegendeOfLumaModItems.CLOVERITEM) {
+						if (entity instanceof Player _player) {
+							ItemStack _stktoremove = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
+							_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
+									_player.inventoryMenu.getCraftSlots());
+						}
+					}
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
+							.getItem() == TheLegendeOfLumaModItems.LILIUMSEEDS) {
 						if (entity instanceof Player _player) {
 							ItemStack _stktoremove = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
 							_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,

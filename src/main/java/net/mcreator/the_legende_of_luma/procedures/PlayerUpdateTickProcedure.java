@@ -1,7 +1,5 @@
 package net.mcreator.the_legende_of_luma.procedures;
 
-import net.minecraftforge.items.IItemHandler;
-import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
@@ -9,21 +7,14 @@ import net.minecraftforge.event.TickEvent;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.GameType;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.the_legende_of_luma.network.TheLegendeOfLumaModVariables;
-import net.mcreator.the_legende_of_luma.init.TheLegendeOfLumaModItems;
 
 import javax.annotation.Nullable;
-
-import java.util.concurrent.atomic.AtomicReference;
 
 @Mod.EventBusSubscriber
 public class PlayerUpdateTickProcedure {
@@ -69,50 +60,6 @@ public class PlayerUpdateTickProcedure {
 		} else {
 			TheLegendeOfLumaModVariables.MapVariables.get(world).IsSuvie = false;
 			TheLegendeOfLumaModVariables.MapVariables.get(world).syncData(world);
-		}
-		Clover = 0;
-		{
-			AtomicReference<IItemHandler> _iitemhandlerref = new AtomicReference<>();
-			entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> _iitemhandlerref.set(capability));
-			if (_iitemhandlerref.get() != null) {
-				for (int _idx = 0; _idx < _iitemhandlerref.get().getSlots(); _idx++) {
-					ItemStack itemstackiterator = _iitemhandlerref.get().getStackInSlot(_idx).copy();
-					if (TheLegendeOfLumaModItems.FOUR_LEAF_CLOVER_ITEM == itemstackiterator.getItem()) {
-						Clover = Clover + (itemstackiterator).getCount();
-						Clover = Clover - 1;
-						if (Clover <= 0) {
-							Clover = 600;
-							if (entity instanceof Player _player) {
-								ItemStack _stktoremove = new ItemStack(TheLegendeOfLumaModItems.FOUR_LEAF_CLOVER_ITEM);
-								_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
-										_player.inventoryMenu.getCraftSlots());
-							}
-						}
-					}
-				}
-			}
-		}
-		if (Clover == 1) {
-			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 20, 0));
-		} else if (Clover == 2) {
-			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 20, 1));
-		} else if (Clover == 3) {
-			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 20, 2));
-		} else if (Clover == 4) {
-			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 20, 3));
-		} else if (Clover == 5) {
-			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 20, 4));
-		} else if (Clover == 6) {
-			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 20, 5));
-		} else if (Clover >= 7) {
-			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 20, 6));
 		}
 	}
 }

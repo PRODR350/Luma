@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "the_legende_of_luma:blocks/lilium_bottom",
-    "particle": "the_legende_of_luma:blocks/lilium_bottom"
-  }
-}
